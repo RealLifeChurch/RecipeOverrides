@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.SourceTree</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string></string>
+		<key>NAME</key>
+		<string>SourceTree</string>
+		<key>SU_FEED_URL</key>
+		<string>http://www.sourcetreeapp.com/update/SparkleAppcast.xml</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>unstable</string>
+			</array>
+			<key>description</key>
+			<string>Say goodbye to the command line – use the full capability of Git and Mercurial in the SourceTree desktop app. Manage all your repositories, hosted or local, through SourceTree's simple interface.</string>
+			<key>display_name</key>
+			<string>Atlassian SourceTree</string>
+			<key>items_to_copy</key>
+			<array>
+				<dict>
+					<key>destination_path</key>
+					<string>/Applications</string>
+					<key>group</key>
+					<string>wheel</string>
+					<key>mode</key>
+					<string>go-w</string>
+					<key>source_item</key>
+					<string>SourceTree.app</string>
+					<key>user</key>
+					<string>root</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>supported_architectures</key>
+			<array>
+				<string>i386</string>
+				<string>x86_64</string>
+			</array>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.SourceTree</string>
+</dict>
+</plist>
