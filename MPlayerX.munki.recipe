@@ -9,7 +9,7 @@
 		<key>MUNKI_CATEGORY</key>
 		<string>Media Players</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string></string>
+		<string>./</string>
 		<key>NAME</key>
 		<string>MPlayerX</string>
 		<key>pkginfo</key>
