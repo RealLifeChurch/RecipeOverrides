@@ -9,14 +9,14 @@
 		<key>DOWNLOAD_URL</key>
 		<string>https://dl.google.com/drive/installgoogledrive.dmg</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/google</string>
+		<string></string>
 		<key>NAME</key>
 		<string>GoogleDrive</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>unstable</string>
 			</array>
 			<key>description</key>
 			<string>Google Drive for Mac syncs any or all of your files to Google Drive on the web, making them available anywhere, at any time, on any device.</string>

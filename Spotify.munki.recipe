@@ -9,14 +9,14 @@
 		<key>DOWNLOAD_URL</key>
 		<string>http://www.spotify.com/download/Spotify.dmg</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps</string>
+		<string></string>
 		<key>NAME</key>
 		<string>Spotify</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>unstable</string>
 			</array>
 			<key>description</key>
 			<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>

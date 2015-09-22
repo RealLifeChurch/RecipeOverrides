@@ -7,14 +7,14 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Skitch</string>
+		<string></string>
 		<key>NAME</key>
 		<string>Skitch</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>unstable</string>
 			</array>
 			<key>description</key>
 			<string></string>

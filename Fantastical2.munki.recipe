@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Flexibits</string>
+		<string></string>
 		<key>NAME</key>
 		<string>Fantastical</string>
 		<key>SPARKLE_FEED_URL</key>
@@ -16,7 +16,7 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>unstable</string>
 			</array>
 			<key>category</key>
 			<string>Productivity</string>
