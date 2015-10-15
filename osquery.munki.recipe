@@ -6,10 +6,12 @@
 	<string>local.munki.osquery</string>
 	<key>Input</key>
 	<dict>
+		<key>RestartAction</key>
+		<string>RequireRestart</string>
 		<key>DOWNLOAD_URL</key>
 		<string>https://osquery-packages.s3.amazonaws.com/darwin/osquery.pkg</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>./</string>
+		<string></string>
 		<key>NAME</key>
 		<string>osquery</string>
 		<key>pkginfo</key>

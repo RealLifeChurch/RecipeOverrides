@@ -8,8 +8,10 @@
 	<dict>
 		<key>DOWNLOAD_URL</key>
 		<string>https://dl.google.com/drive/installgoogledrive.dmg</string>
+		<key>RestartAction</key>
+		<string>RequireRestart</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>./</string>
+		<string></string>
 		<key>NAME</key>
 		<string>GoogleDrive</string>
 		<key>pkginfo</key>
